@@ -11,7 +11,7 @@ namespace lab06_Q2
         private double number1;
         private double number2;
 
-        private void setValues(double num1, double num2)
+        public void setValues(double num1, double num2)
         { 
             number1= num1;
             number2= num2;
@@ -29,7 +29,7 @@ namespace lab06_Q2
         {
             return number1 * number2; 
         }
-        public double getdiv()
+        public double getDiv()
         {
             return (number1 / number2);
         }

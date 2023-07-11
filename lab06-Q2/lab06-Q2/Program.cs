@@ -8,7 +8,7 @@ namespace lab06_Q2
 {
     internal class Program
     {
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
             Console.WriteLine("Enter the value for number 1:");
             double num1 = double.Parse(Console.ReadLine());
@@ -23,7 +23,7 @@ namespace lab06_Q2
             Console.WriteLine("Sum is: " + calObj.getAdd());
             Console.WriteLine("Sub is: " + calObj.getSub());
             Console.WriteLine("Multi is: " + calObj.getMulti());
-            Console.WriteLine("Div is: " + calObj.getdiv());
+            Console.WriteLine("Div is: " + calObj.getDiv());
 
         }
     }
